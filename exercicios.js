@@ -124,6 +124,9 @@ function trocaPrimeiroEUltimo(array) {
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
+  let stringUm = string1.toLowerCase()
+  let stringDs = string2.toLowerCase()
+  return stringUm === stringDs
 
 }
 
