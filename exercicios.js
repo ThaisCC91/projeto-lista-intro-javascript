@@ -71,6 +71,8 @@ function imprimeTresCoresFavoritas() {
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
+  let stringMini = string
+  return stringMini.toUpperCase()
 
 }
 
