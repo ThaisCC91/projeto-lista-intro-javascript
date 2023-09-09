@@ -55,15 +55,17 @@ function imprimeInformacoesUsuario() {
   let email = prompt("Escreva seu e-mail")
 
   console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
-  
-
- 
 }
 
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
+  let cor1 = prompt("Digite sua primeira cor favorita")
+  let cor2 = prompt("Digite sua segunda cor favorita")
+  let cor3 = prompt("Digite sua terceira cor favorita")
+  let cores = [cor1, cor2, cor3]
 
+  console.log(cores)
 }
 
 // EXERCÍCIO 06
