@@ -19,8 +19,13 @@ function imprimeMensagem() {
 // EXERCÍCIO 01
 function calculaAreaRetangulo() {
   // implemente sua lógica aqui
+  let altura = prompt("qual a altura do retangulo")
+  let largura = prompt("qual a largura do retangulo")
 
+  const resultado = altura * largura
+  console.log (resultado)
 }
+
 
 // EXERCÍCIO 02
 function imprimeIdade() {
