@@ -133,12 +133,24 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
+  let anoAtual = prompt("Qual ano atual?")
+  let anoDeNascimento = prompt("Qual seu ano de nascimento?")
+  let anoEmissaoRg = prompt("Qual ano de emissão do RG")
+  let idade = anoAtual - anoDeNascimento
+  let idadeRg = anoAtual - anoEmissaoRg
+  let cond1 = (idade <= 20) && (idadeRg >= 5)
+  let cond2 = (idade <= 50) && (idadeRg >= 10)
+  let cond3 = (idade > 50) && (idadeRg > 15)
 
+  console.log(cond1 || cond2 || cond3)
 }
 
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
   // implemente sua lógica aqui
+  let cond1 
+
+
 
 }
 
